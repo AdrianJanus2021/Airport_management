@@ -1,0 +1,8 @@
+# Airplane Flight Database
+An entity relationship diagram for database, for an airplane flight management system.
+The database contains information about many flights and their departure and arrival time as well as their status (ready, in progress, arrived). We can keep the history of those statuses. 
+The flight takes place between two airports, of which we know in what country and city they are located in. (there can be more than on airport in one city)
+Each flight has one airplane assigned to it. We know about airplanes type which is manufactured by a certain producer, that has its name, contact number and address. The plane type tells us about the airplanes passenger capacity. Airplane has its model number and we know to which airline the airplane belongs to. We track, after each flight in which airport, the airplane currently resides in. 
+The database holds information about employees, with their name, surname, contact number, their home address, their salary, hire date and their job title. Moreover we have information in which airport the employee works. Employee can work only in one airport, but the airport can have many employees. Employees are assigned to the flight. An employee can be assigned to many flights.
+The passengers have name, surname, contact number and  address. Passengers have baggage, of which we know about its weight. The baggage can belong to only one passenger. Passenger can have different baggage on different flights.
+Passengers can buy tickets for flights. They have their price, specific seat number, travel class assigned to it and the date on which it was purchased.
